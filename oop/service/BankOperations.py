@@ -1,9 +1,6 @@
 from oop.models.Account import Account
 from utils.Exceptions import InsufficientFundsError
 
-
-
-
 def check_balance(account:Account):
     return f"Your Balance is {account.get_balance()}"
 
