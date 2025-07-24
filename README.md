@@ -1,6 +1,6 @@
 # 🏦 Bank-Task
 
-A simple Python console-based banking system using OOP, file handling, and exception management.
+A simple Python console-based banking system using OOP, exception management, handling Inputs and file manager.
 
 ## 📁 Structure
 
