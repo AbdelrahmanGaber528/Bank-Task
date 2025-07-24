@@ -1,0 +1,11 @@
+{'name': 'abd', 'balance': 54554}Name : abd  Balance : 54554Name : abd  Balance : 54554
+Name : abd  Balance : 54554
+Name : {account.get_name()}  Balance : {account.get_balance()}
+fafaf
+Name : abd  Balance : 54554
+fafaf
+fafaf
+Name : abd  Balance : 54554
+fafaf
+Name : abd  Balance : 54554
+Name : abd  Balance : 54554

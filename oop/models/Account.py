@@ -1,7 +1,7 @@
-class BankAccount:
+class Account:
 
     def __init__(self, name , balance):
-        self.__name = name
+        self.__name = name # make private to perform the encapsulation
         self.__balance = balance
 
     def get_name(self):
