@@ -1,4 +1,4 @@
-from oop.BankOperations import check_balance, withdraw, dispose, save_account
+from oop.service.BankOperations import check_balance, withdraw, dispose, save_account
 from oop.models.Account import Account
 from oop.models.Bank import Bank
 from utils.HandleInputs import get_positive_amount, get_valid_menu_choice

@@ -1,6 +1,6 @@
 
 def insert(data):
-    file = open("utils/accounts-data.txt", "a")
+    file = open("accounts-data.txt", "a")
     file.write(data + '\n')
 
 

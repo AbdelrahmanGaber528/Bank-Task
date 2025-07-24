@@ -1,6 +1,8 @@
 from oop.models.Account import Account
 from utils.Exceptions import InsufficientFundsError
-from utils.file_manager import insert
+
+
+
 
 def check_balance(account:Account):
     return f"Your Balance is {account.get_balance()}"
@@ -23,12 +25,15 @@ def dispose(account: Account,amount: float): # add money to ACCOUNT
     return "Successfully disposed"
 
 
-def save_account(account: Account):
-    insert(f"{account.get_id()} {account.get_name()}    {account.get_balance()}")
 
 
-save_account(Account("faf",15464))
 ### This methods can be in the bank system , but need more handled
+
+from utils.file_manager import insert
+from oop.service.AccountMethods import get_last_id
+
+def save_account(account: Account):
+    insert(f"{get_last_id()}    {account.get_name()}    {account.get_balance()}")
 
 def update_account(account: Account):
     pass
